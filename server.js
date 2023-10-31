@@ -21,9 +21,9 @@ DBConnection.init();  // DB Connection established
 
 var swaggerDefinition = {
     info: {
-        title: "Wallet Project",
+        title: "simulater Project",
         version: "1.0.0",
-        description: "Documentation of Wallet Application",
+        description: "Documentation of simulater Application",
     },
     host: `localhost:${port}`,
     basePath: "/",
