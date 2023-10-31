@@ -1,5 +1,5 @@
 {
-  "name": "intervtesting",
+  "name": "simulater",
   "version": "1.0.0",
   "description": "This repo code based on aave price simulation and strategies",
   "main": "server.js",
