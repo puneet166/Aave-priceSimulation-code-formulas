@@ -1,6 +1,5 @@
 const mongoose = require('mongoose');
 let db = mongoose.connection;
-// const DBConnection = "mongodb://tpadmin:hH2vBuhwdGzMjiPY@172.17.0.199:27017/trading-plus?authSource=admin";
 
 const DBConnection = `mongodb://localhost:27017/walletDB`;
 function init() {
