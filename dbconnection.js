@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 let db = mongoose.connection;
 
-const DBConnection = `mongodb://localhost:27017/walletDB`;
+const DBConnection = `mongodb://localhost:27017/simulatorDB`;
 function init() {
 	return new Promise((resolve, reject) => {
 		mongoose.set('strictQuery', false);
