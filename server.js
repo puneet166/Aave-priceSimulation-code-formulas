@@ -192,11 +192,11 @@ app.get('/getDetail', async (req, res) => {
  *       - name: borrow
  *         description: borrow
  *         in: query
- *         required: false
+ *         required: true
  *       - name: supply
  *         description: supply
  *         in: query
- *         required: false
+ *         required: true
  *     responses:
  *       200:
  *         description: Data found successfully.
